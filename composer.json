@@ -1,0 +1,25 @@
+{
+    "name": "abhitheawesomecoder/profilepic",
+    "description": "package to add profile picture to laravel 5.2 Auth Scaffold",
+    "version": "1.0.0",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["laravel"],
+    "authors": [
+        {
+            "name": "Abhishek Kumar",
+            "email": "abhitheawesomecoder@gmail.com"
+        }
+    ],    
+    "minimum-stability": "dev",
+    "require": {
+          "php": ">=5.4.0",
+          "illuminate/support": "^5.0",
+          "abhitheawesomecoder/laravel-edit-profile": "^1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Abhitheawesomecoder\\Profilepic\\": "src/"
+        }
+    }
+}
